@@ -41,7 +41,7 @@ if ( $_POST['username'] == "" || $_POST['passwd'] == "" ) {
             session_start();
             $_SESSION["is_login"] = 'true';
             $_SESSION["username"] = $trueusername;
-            header("Location: index.php");
+            header("Location: /index.php");
             $conn->close();
             exit();
         } else {

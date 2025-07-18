@@ -3,13 +3,13 @@
     
     if(!isset($_SESSION["is_login"])){
         $_SESSION["is_login"] = 'false';
-        header("Location: auth.php");
+        header("Location: auth/auth.php");
         exit();
     }
 ?>
 <?php
     if($_SESSION["is_login"] == 'false') {
-    header("Location: auth.php");
+    header("Location: auth/auth.php");
     exit();
 }
 ?>
@@ -21,11 +21,11 @@
     <title>任务控制</title>
     <?php
         if($_SESSION["is_login"] == 'false') {
-            header("Location: auth.php");
+            header("Location: auth/auth.php");
             exit();
         }
     ?>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="https://lf3-cdn-tos.bytecdntp.com/cdn/expire-1-M/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="index.css" rel="stylesheet">
 </head>
 <body>
