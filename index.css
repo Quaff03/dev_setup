@@ -1,0 +1,29 @@
+body {
+  font-family: 'Microsoft YaHei',Arial, sans-serif;
+}
+a {
+  text-decoration: none;
+  color: #007bff;
+}
+a:hover {
+  color: #333;
+  text-decoration: underline;
+}
+h1 {
+  color: #333;
+  text-align: center;
+}
+h2 {
+  color: #555;
+  text-align: center;
+}   
+p {
+  color: #666;
+}
+div.options {
+  margin: 0.5em;
+  padding: 0.5em;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  text-align: center;
+}
