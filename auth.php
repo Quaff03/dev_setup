@@ -27,8 +27,8 @@ $_SESSION["is_login"] = $_COOKIE["is_login"];
             <form action="auth_backend.php" method="post" enctype="multipart/form-data">
                 <label for="username">用户名：</label>
                 <input type="text" name="username" id="username" required><br>
-                <label for="file">请上传WEBAuthKey文件：</label>
-                <input type="file" name="file" id="file"><br>
+                <label for="file">请输入密码：</label>
+                <input type="password" name="passwd" id="passwd"><br>
                 <input type="submit" name="submit" value="提交">
             </form>
 
