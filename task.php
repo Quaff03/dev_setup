@@ -1,15 +1,17 @@
 <?php
     session_start();
     
+    define("AUTH_REDIRECT", "Location: auth/auth.php");
+
     if(!isset($_SESSION["is_login"])){
         $_SESSION["is_login"] = 'false';
-        header("Location: auth/auth.php");
+        header(AUTH_REDIRECT);
         exit();
     }
 ?>
 <?php
     if($_SESSION["is_login"] == 'false') {
-    header("Location: auth/auth.php");
+    header(AUTH_REDIRECT);
     exit();
 }
 ?>
