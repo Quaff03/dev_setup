@@ -11,7 +11,7 @@ a:hover {
 }
 h1 {
   color: #333;
-  text-align: center;
+  text-align: center !important;
 }
 h2 {
   color: #555;
@@ -27,12 +27,25 @@ div.options {
   border-radius: 4px;
   text-align: center;
 }
-.logout-button{
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 3px;
+  /*padding: 10px;*/
+  background-color:chocolate;
+}
+
+
+.logout-button {
   background-color: #f44336;
   color: white;
   padding: 10px 20px;
   border: none;
-  border-radius: 4px;
+  border-radius: 2px;
   cursor: pointer;
   align-content: end;
+  margin-left: auto;
 }
