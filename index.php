@@ -17,7 +17,7 @@ if (!isset($_SESSION["is_login"])) {
 
 <body>
     <header>
-        <h1>欢迎使用工作站控制向导</h1>
+        <h1>工作站控制向导</h1>
         <a href='auth/logout.php'><button onclick="console.log('LogOut!')" class="logout-button">注销</button></a>
     </header>
     <?php
