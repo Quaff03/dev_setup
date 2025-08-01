@@ -34,6 +34,6 @@
     <header class="head">
         <h1 style="">任务控制</h1>
         &nbsp;&nbsp;&nbsp;&nbsp;
-        <a href="index.php" class="button">返回首页</a>
+        <a href="index.php" class="button"><button class="logout-button">返回首页</button></a>
     </header>
 </body>
